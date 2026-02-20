@@ -35,6 +35,7 @@ public class ObstacleSpawn : MonoBehaviour
     }
     public void ReturnToPool(GameObject obj)
     {
+        if(!obj.activeInHierarchy) return;
         obj.SetActive(false);
         obj.transform.SetParent(null);
         _pool.Enqueue(obj);

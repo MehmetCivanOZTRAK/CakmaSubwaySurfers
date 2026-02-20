@@ -88,6 +88,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2811188579055462593
 GameObject:
@@ -99,6 +100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8296586341749401591}
   - component: {fileID: 3000179974351149151}
+  - component: {fileID: -6057220604475914356}
   - component: {fileID: 7570890543803882780}
   m_Layer: 0
   m_Name: SabitAraclar
@@ -134,6 +136,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2811188579055462593}
   m_Mesh: {fileID: 2529852330503185278, guid: fa1d75630b4bc214087918026b6630a5, type: 3}
+--- !u!114 &-6057220604475914356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2811188579055462593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c342a439443c91c48865b1d4c713a64c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AutoReturnPool
+  _passDistance: 5
 --- !u!23 &7570890543803882780
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -181,6 +196,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3193390056558360606
 GameObject:
@@ -270,6 +286,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7151287292480953850
 GameObject:
@@ -359,6 +376,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7451308217648137162
 GameObject:
@@ -448,4 +466,5 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}

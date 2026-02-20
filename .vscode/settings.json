@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "CakmaSubwaySurfers.slnx"
+    "dotnet.defaultSolution": "CakmaSubwaySurfersGitHub.slnx"
 }
